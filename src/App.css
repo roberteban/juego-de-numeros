@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center; /* Centra el contenido */
+}
+
+header {
+  background-color: #4CAF50; /* Color de fondo */
+  padding: 20px;
+  color: white;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 500px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la relación de aspecto */
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #4CAF50; /* Borde verde */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50; /* Botón verde */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  margin-left: 10px; /* Espacio entre input y botón */
+}
+
+button:hover {
+  background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 20px; /* Aumenta el tamaño del texto */
+}
+
+.resultado.correcto {
+  color: #ffcc00; /* Color dorado para aciertos */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 24px; /* Aumenta el tamaño del texto en aciertos */
+  animation: bounce 0.5s; /* Animación de rebote */
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 16px; /* Ajusta el tamaño del texto del footer */
+  color: #555; /* Color gris para el footer */
+}
