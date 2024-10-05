@@ -3,18 +3,21 @@
 Este proyecto es un juego interactivo de adivinanza de números desarrollado con React. El objetivo es que el jugador ingrese un número del 1 al 10, y la aplicación generará un número aleatorio. Si ambos coinciden, el jugador gana. En caso contrario, podrá seguir jugando con un nuevo número generado automáticamente.
 
 ## Tecnologías utilizadas
+- **React**: Biblioteca JavaScript para construir la interfaz de usuario.
+- **HTML & CSS**: Para la estructura y el estilo.
+- **JavaScript**: Lógica del juego.
 
-- **React**: Para la creación de componentes y el manejo de estado.
-- **JavaScript (ES6+)**: Lógica del juego.
-- **HTML5 y CSS3**: Estructura y estilos de la aplicación.
+## Cómo jugar
+1. El jugador ingresa un número del 1 al 10.
+2. La máquina genera un número aleatorio en ese mismo rango.
+3. Si el número ingresado coincide con el generado, el jugador gana. Si no, puede volver a intentarlo.
+
 
 ## Funcionalidades
-
-- El jugador ingresa un número del 1 al 10.
 - La aplicación genera un número aleatorio en cada intento.
-- Al hacer clic en "¡Adivinar!", se compara el número ingresado con el generado.
-- Se muestra un mensaje indicando si el jugador acertó o falló.
-- En cada intento se genera un nuevo número aleatorio.
+- Comparación de la respuesta del jugador con el número generado.
+- Interfaz atractiva, divertida y centrada.
+- Actualización continua del número aleatorio en cada intento.
   
 ## Cómo ejecutar el proyecto
 
